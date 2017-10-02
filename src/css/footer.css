@@ -1,0 +1,12 @@
+#footer {
+  height: 35px;
+  background-color: #000000;
+  /*opacity: .5;*/
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: 'AdventPro-Regular';
+  font-size: 25px;
+  color: #ffffff;
+}
