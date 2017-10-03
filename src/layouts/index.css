@@ -28,10 +28,16 @@
   font-family: "AdventPro-Thin";
   src: url("../fonts/AdventPro-Thin.ttf") format("ttf")
 }
+
+* {
+  margin:0;
+  padding: 0;
+}
+
 /* BGC THEME */
 
 
-/*html {
+html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -654,4 +660,4 @@ pre tt:after {
   html {
     font-size: 100%;
   }
-}*/
+}

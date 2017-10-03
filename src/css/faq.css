@@ -1,0 +1,7 @@
+#faq {
+  display: flex;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: red;
+  padding-top: 70px;
+}

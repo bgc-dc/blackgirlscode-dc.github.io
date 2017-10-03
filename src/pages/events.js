@@ -1,6 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import '../css/about.css'
+
+
 const EventsPage = () => (
   <div>
     <h1>Hi from the events page</h1>

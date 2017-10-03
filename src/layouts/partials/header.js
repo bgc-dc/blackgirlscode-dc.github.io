@@ -20,11 +20,11 @@ const Header = () => (
       <input type="checkbox" id="menu-toggle"/>
       <label htmlFor="menu-toggle" className="label-toggle"></label>
       <ul>
-        <li><a>
+        <li>
           <Link
             to="/about"
             > About
-          </Link></a>
+          </Link>
         </li>
         <li>
           <Link

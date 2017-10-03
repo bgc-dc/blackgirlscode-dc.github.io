@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import '../css/faq.css'
+
 const FaqPage = () => (
   <div>
     <h1>Hi from the faq page</h1>

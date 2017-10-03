@@ -1,4 +1,21 @@
 #about {
- color: black;
- padding-top: 100px;
+  display: flex;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: red;
+  padding-top: 70px;
+}
+
+.about-left{
+  order: 2;
+  flex: 3;
+  flex-basis: auto;
+  min-height: 100%;
+  min-width:45%;
+  background-color: blue;
+}
+
+.about-right {
+  order:1;
+  flex: 3;
 }
