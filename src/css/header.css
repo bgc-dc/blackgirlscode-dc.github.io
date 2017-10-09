@@ -4,10 +4,12 @@ a {
 
 #header-container {
   font-size: 20px;
+  z-index: 500 !important;
 }
 
 #header-container {
-  height: 80px;
+  /*height: 80px;*/
+  height: 15%;
   max-height: 80px;
   background-color: black;
   /*opacity: .5;*/
@@ -54,7 +56,7 @@ a {
  }
 
 
- #header-container ul {
+ #header-container .header-ul {
    font-family: 'AdventPro-Light';
    float: right;
    padding-right: 20px;
@@ -65,12 +67,12 @@ a {
    width: 50%;
    letter-spacing: 1px;
  }
- #header-container ul a {
+ #header-container .header-ul a {
    text-decoration: none;
    transition: all .5s ease;
  }
 
- #header-container ul a:hover {
+ #header-container .header-ul a:hover {
    color: #DA2073;
  }
  #header-container li {
@@ -78,7 +80,7 @@ a {
  }
 
 
- ul > li:before {
+ .header-ul > .header-li:before {
    content: "";
    position: absolute;
    width: 100%;
@@ -91,8 +93,8 @@ a {
    transform: scaleX(0);
    transition: .25s linear;
  }
- ul > li:hover:before,
- ul > li:focus:before {
+ .header-ul > .header-li:hover:before,
+ .header-ul > .header-li:focus:before {
    visibility: visible;
    transform: scaleX(1);
  }

@@ -1,8 +1,10 @@
 #footer {
-  height: 35px;
+  /*height: 35px;*/
+  height: 5%;
   background-color: #000000;
   /*opacity: .5;*/
-  position: absolute;
+  /*position: absolute;*/
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;

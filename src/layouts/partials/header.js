@@ -19,38 +19,38 @@ const Header = () => (
       </div>
       <input type="checkbox" id="menu-toggle"/>
       <label htmlFor="menu-toggle" className="label-toggle"></label>
-      <ul>
-        <li>
+      <ul className="header-ul">
+        <li className="header-li">
           <Link
             to="/about"
             > About
           </Link>
         </li>
-        <li>
+        <li className="header-li">
           <Link
             to="/events"
             > Events
           </Link>
         </li>
-        <li>
+        <li className="header-li">
           <Link
             to="/resources"
             > Resources
           </Link>
         </li>
-        <li>
+        <li className="header-li">
           <Link
             to="/volunteer"
             > Volunteer
           </Link>
         </li>
-        <li>
+        <li className="header-li">
           <Link
             to="/faq"
             > FAQ
           </Link>
         </li>
-        <li>
+        <li className="header-li">
           <Link
             to="/contact-us"
             > Contact Us

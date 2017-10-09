@@ -19,11 +19,14 @@ const TemplateWrapper = ({ children }) => (
     />
     <Header />
     <div
-      // style={{
-      //   margin: '0 auto',
-      //   padding: '0',
-      //   paddingTop: 0,
-      // }}
+      style={{
+        margin: '0 auto',
+        height: '80%',
+        padding: '0',
+        // overflowY: 'hidden',
+        // paddingBottom: '5%',
+        // paddingTop: '15%',
+      }}
     >
       {children()}
     </div>

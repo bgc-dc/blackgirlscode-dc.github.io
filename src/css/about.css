@@ -1,21 +1,125 @@
-#about {
-  display: flex;
-  max-width: 100%;
-  overflow-x: hidden;
-  background-color: red;
-  padding-top: 70px;
+.about {
+
+}
+#first-about {
+  padding-top: 5%;
 }
 
-.about-left{
-  order: 2;
-  flex: 3;
-  flex-basis: auto;
+.image-one {
+  background: url("../assets/girl-robotics.jpg");
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  height: 670px;
+}
+
+.image-two {
+  background: url("../assets/girls-classroom.jpg");
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  height: 670px;
+}
+
+.image-three {
+  background: url("../assets/girl-tablet.png");
+  overflow: hidden;
+  background-size: cover;
+  height: 700px;
+}
+
+
+.sub-nav {
+  position: fixed;
+  background-color: #DA2073;
+  height: 15px;
+  padding-top: 6%;
+  right: 0px;
+  width: 50%;
+  font-family: 'AdventPro-SemiBold';
+  font-weight: 400;
+  letter-spacing: 1px;
+  align-items: center;
+
+}
+.about-nav {
+  display:flex;
+  list-style:none;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+.about-nav li a {
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.about-nav a:hover{
+  color: #DA2073;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.about-left img {
+  width: auto;
+  height: auto;
+  min-width: 100%;
   min-height: 100%;
-  min-width:45%;
-  background-color: blue;
+  position: fixed;
+}
+
+ .container {
+  padding: 20px;
+  max-height:100px;
+
 }
 
 .about-right {
-  order:1;
-  flex: 3;
+  width: 50%;
+  padding-top: 10%;
+  float: right;
+  height: auto;
+  right: 0px;
+
+}
+
+.about-left{
+  width: 50%;
+  float:left;
+  height: 100%;
+}
+
+.about-content{
+  height: 100%;
+  padding: 100px;
+  font-weight: 400;
+}
+
+.about-content h1 {
+  font-family: 'AdventPro-Regular';
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+.about-content p {
+  font-family: 'AdventPro-Medium';
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 150%;
+}
+
+.container .about-content {
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-left {
+    display: none;
+  }
 }

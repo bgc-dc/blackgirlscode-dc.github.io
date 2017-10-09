@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Black Girls Code DC Chapter`,
   },
   plugins: [`gatsby-plugin-react-helmet`],
 }
