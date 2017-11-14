@@ -7,11 +7,11 @@ var resources = [
     "categories": ["Web Development"]
   },
   {
-    "title": "",
-    "url": "",
+    "title": "Alexa Kids Skill Challenge",
+    "url": "https://alexakidskills.devpost.com/",
     "description": "",
     "image": "",
-    "categories": ["Web Development"]
+    "categories": ["Web Development", "Internet of Things"]
   },
   {
     "title": "",

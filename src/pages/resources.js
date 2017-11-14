@@ -2,6 +2,9 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const ResourcesPage = () => (
+  //searchbar
+  //filter
+  // resources grid 
   <div>
     <h1>Hi from the resources page</h1>
     <p>Welcome to page 2</p>

@@ -1,7 +1,13 @@
-#events {
-  display: flex;
-  max-width: 100%;
-  overflow-x: hidden;
-  background-color: red;
-  padding-top: 70px;
+.events {
+  padding-top: 200px;
+}
+
+.events-left {
+  min-height: 100%;
+  float: left;
+}
+
+.events-right {
+  min-height: 100%;
+  float: right; 
 }
