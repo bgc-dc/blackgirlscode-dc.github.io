@@ -1,14 +1,16 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import SearchBar from '../components/resources/searchbar'
+import ResourceGrid from '../components/resources/resource-grid'
+import Filter from '../components/resources/filter'
+
+var resources = require('../data/resources')
 
 const ResourcesPage = () => (
-  //searchbar
-  //filter
-  // resources grid 
   <div>
-    <h1>Hi from the resources page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <SearchBar/>
+    <ResourceGrid/>
+    <Filter/>
   </div>
 )
 

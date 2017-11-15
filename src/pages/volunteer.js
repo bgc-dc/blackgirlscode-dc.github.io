@@ -1,11 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
-// http://www.blackgirlscode.com/volunteer-signup.html <= convert into typeform 
+import SignUp from '../components/signup'
+import '../css/volunteer.css'
+
+// http://www.blackgirlscode.com/volunteer-signup.html <= convert into typeform
 const VolunteerPage = () => (
-  <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+  <div className="volunteer">
+      <SignUp/>
   </div>
 )
 
