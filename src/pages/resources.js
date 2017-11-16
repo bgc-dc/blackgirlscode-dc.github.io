@@ -7,7 +7,7 @@ import Filter from '../components/resources/filter'
 var resources = require('../data/resources')
 
 const ResourcesPage = () => (
-  <div>
+  <div className="resources">
     <SearchBar/>
     <ResourceGrid/>
     <Filter/>
