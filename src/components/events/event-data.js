@@ -1,5 +1,5 @@
 import React from 'react'
-var events = require('../data/events')
+var events = require('../../data/events')
 
 class EventData extends React.Component {
   constructor(props){
@@ -40,7 +40,8 @@ class EventData extends React.Component {
     })
       return (
         <div>
-          {latestEvent}
+          empty 
+          {/* {latestEvent} **/}
         </div>
       )
   }

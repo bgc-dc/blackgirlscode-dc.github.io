@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import '../css/events.css'
-import EventData from '../components/event-data'
-import Calendar from '../components/calendar'
+import EventData from '../components/events/event-data'
+import Calendar from '../components/events/calendar'
 
 
 

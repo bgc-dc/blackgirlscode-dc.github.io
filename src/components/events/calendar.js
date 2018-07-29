@@ -4,7 +4,7 @@ import React from 'react'
 import BigCalendar from 'react-big-calendar'
 import moment from 'moment';
 
-var events = require('../data/events')
+var events = require('../../data/events')
 
 
 
@@ -22,12 +22,13 @@ class Calendar extends React.Component {
         <div>
           Calendar
           <div>
+              {/*
             <BigCalendar
               events={eventList}
               startAccessor='startDate'
               endAccessor='endDate'
             />
-            {/* <EventCalendar
+           <EventCalendar
               month={11}
               year={2017}
               events={eventList}
